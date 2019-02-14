@@ -1,4 +1,5 @@
-export * from './sucursal';
+export * from './linea';
+
 export * from './moneda';
 export * from './existencia';
 export * from './cuentaDeBanco';
