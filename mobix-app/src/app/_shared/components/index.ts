@@ -8,7 +8,7 @@ import { UsoCfdiComponent } from './uso-cfdi/uso-cfdi.component';
 import { FechaDialogComponent } from './fecha-dilog/fecha.dialog.component';
 import { PeriodoDialogComponent } from './periodo-dialog/periodo-dialog.component';
 import { PeriodoPickerComponent } from './periodo-picker/periodo-picker.component';
-import { SucursalFieldComponent } from './sucursal-field/sucursal-field.component';
+
 import { UsuarioSecFieldComponent } from './usuario-sec-field/usuario-sec-field.component';
 import { ProveedorFieldComponent } from './proveedor-field/proveedor-field.component';
 
@@ -38,7 +38,6 @@ export const components = [
   FechaDialogComponent,
   PeriodoDialogComponent,
   PeriodoPickerComponent,
-  SucursalFieldComponent,
   UsuarioSecFieldComponent,
   ProveedorFieldComponent,
   UpperCaseFieldComponent,

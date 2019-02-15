@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from '../../environments/environment';
-import { Sucursal } from '../models/sucursal';
 
 @Injectable()
 export class ConfigService {
@@ -16,10 +15,6 @@ export class ConfigService {
 
   getAppConfig() {
     return this.config;
-  }
-
-  getCurrentSucursal(): Sucursal {
-    return this.config.sucursal;
   }
 
   getApiUrl() {
